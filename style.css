@@ -1,22 +1,42 @@
-nav {
-    display: flex;
-    justify-content: space-between; 
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
-.nobull {
-    list-style: none;  
+nav {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+  
+}
+.top {
+    background: #1f2937;
 }
 
+.nobull {
+  list-style: none;
+}
+a {
+  color: #f9faf8;
+}
 .nobull li {
-    display: inline;
-    margin: 0 15px;
+  display: inline;
+  margin: 0 15px;
 }
 .Logo {
-    width: 12%;
-}    
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    
+  width: 100px;
 }
+
+.intro {
+    background: #1f2937;
+    display: flex;
+    margin: auto;
+    width: 80%;
+
+   
+  }
+  .shiba_1 {
+    width: 600px;
+  }
+  
