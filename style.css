@@ -8,10 +8,9 @@ nav {
   margin: auto;
   width: 80%;
   justify-content: space-between;
-  
 }
 .top {
-    background: #1f2937;
+  background: #1f2937;
 }
 
 .nobull {
@@ -20,23 +19,22 @@ nav {
 a {
   color: #f9faf8;
 }
-.nobull li {
+.nobull li{
   display: inline;
-  margin: 0 15px;
+  margin: 0 10px;
+ 
 }
 .Logo {
   width: 100px;
 }
 
 .intro {
-    background: #1f2937;
-    display: flex;
-    margin: auto;
-    width: 80%;
-
-   
-  }
-  .shiba_1 {
-    width: 600px;
-  }
-  
+  background: #1f2937;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+}
+.shiba_1 {
+  width: 600px;
+}
