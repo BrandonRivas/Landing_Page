@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 nav {
   display: flex;
@@ -18,11 +19,11 @@ nav {
 }
 a {
   color: #f9faf8;
+  text-decoration: none;
 }
-.nobull li{
+.nobull li {
   display: inline;
   margin: 0 10px;
- 
 }
 .Logo {
   width: 100px;
@@ -30,23 +31,38 @@ a {
 .header {
   display: flex;
   margin: auto;
-  width: 70%;
+  width: 75%;
 }
-.intro {
+.intro_container {
   background: #1f2937;
   display: flex;
   margin: auto;
   width: 60%;
   justify-content: space-around;
+  padding-bottom: 15px;
 }
 .shiba_1 {
   width: 400px;
-  padding-bottom: 15px;
-
+ 
 }
 
-h1{
+h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+}
+
+.intro {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+button {
+  background-color: #3882f6;
+  padding: 15px 32px;
+  font-family: "Roboto", sans-serif;
+  color: #f9faf8;
+  border-radius: 12px;
+  border: 0;
+  font-weight: bold;
 }
