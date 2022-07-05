@@ -97,3 +97,25 @@ h2{
   border-radius: 12px;
   border: #3882f6 3px solid;
 }
+
+.quote_container {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote {
+  width: 30%;
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  font-weight: bold;
+  font-style: normal;
+}
