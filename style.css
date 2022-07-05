@@ -144,4 +144,11 @@ h3 {
 .woof_button {
   border: #f9faf8 solid;
 }
-
+footer {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-weight: 100;
+}
