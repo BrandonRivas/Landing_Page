@@ -66,3 +66,29 @@ button {
   border: 0;
   font-weight: bold;
 }
+h2{
+  display: flex;
+  justify-content: center;
+}
+.reasons_container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+.image_container{
+ display: flex;
+ justify-content: space-around;
+ width: 40%;
+ padding: 15px;
+   
+}
+.image_card {
+  width: 150px;
+}
+.dog_image {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  
+}
